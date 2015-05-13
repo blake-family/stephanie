@@ -248,7 +248,8 @@ module.exports = function (grunt) {
             'images/{,*/}*.{webp,gif,svg}',
             'bower_components/**',
             'bower_components/font-awesome/fonts/**',
-            'CNAME'
+            'CNAME',
+            'about/**'
           ]
         }, {
             //for font-awesome
