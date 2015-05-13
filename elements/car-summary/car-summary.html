@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="car-summary" attributes="name, teaser, description, url">
+  <template>
+    <style>
+    :host {
+      display: block;
+      
+    }
+    </style>
+    <link rel="stylesheet" href="../../css/skel.css" />
+    <section style="cursor:pointer">
+      <paper-shadow z="1" style="margin: 15px; padding:8px">
+        <div style="height:215px;  background: url('{{url}}') no-repeat center center; background-size:cover;"></div>
+        <header>
+          <h3>{{name}}</h3>
+        </header>
+        <p>{{teaser}}</p>
+      </paper-shadow>
+    </section>
+  </template>
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+        // define element prototype here
+      });
+
+    })();
+  </script>
+</polymer-element>
