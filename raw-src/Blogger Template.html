@@ -95,6 +95,7 @@ h1,h2,h3,h4,h5,h6 {
 	width:1030px;
 	margin:7em auto;
 }
+
 .container.sp_sidebar {
 	overflow:hidden;
 }
@@ -1182,7 +1183,7 @@ color: #222;
 #widget-area .widget, #sidebar .widget {
 		float: left;
     margin-right: 32px;
-    width: 322px;
+/*width: 322px;*/
 	}
 
 #widget-area #container3 {
@@ -1190,7 +1191,7 @@ color: #222;
 }
 
 	#sidebar .widget {
-  width: 250px;
+/*width: 250px;*/
   margin-right: 0;
   float: none;
   margin-bottom: 30px;
@@ -2338,14 +2339,15 @@ strong.tag-heading .fa {
 /*************************************************
 *	10. Tablet									 *
 *************************************************/
-@media only screen and (min-width: 768px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
 
 	.container {
 		width:726px;
+		margin:4em auto !important;
 	}
 
 	#navigation-wrapper {
-		display:none;
+		display:block;
 	}
 
 	#logo img {
@@ -2354,7 +2356,7 @@ strong.tag-heading .fa {
 	}
 
 	.slicknav_menu {
-		display:block;
+		display:none;
 	}
 
 	.post-image img {
@@ -2475,6 +2477,7 @@ strong.tag-heading .fa {
 
 	.container {
 		width:320px;
+		margin:4em auto !important;
 	}
 
 	#navigation-wrapper {
@@ -2600,6 +2603,7 @@ strong.tag-heading .fa {
 
 	.container {
 		width:480px;
+		margin:4em auto !important;
 	}
 
 	#logo img {
@@ -4116,7 +4120,7 @@ $(document).ready(function() {
 						</div>
 						<div class='author-content'>
 							<h5><a href='' rel='author' title='Posts by Stephanie'><data:post.author/></a></h5>
-							<p style='font-family: Lato, sans-serif;'>Stephanie is a music and voice teacher in Steamboat Spring Colorado. Use the 'Getting Started' link for more information on becoming her student.</p>
+							<p style='font-family: Lato, sans-serif;'>Stephanie is a music and voice teacher in Steamboat Spring Colorado. Use the &#39;Getting Started&#39; link for more information on becoming her student.</p>
 							<a class='author-social' href='Facebook link goes here' target='_blank'><i class='fa fa-facebook'/></a>
 							<a class='author-social' href='Twitter link goes here' target='_blank'><i class='fa fa-twitter'/></a>
 							<a class='author-social' href='Instagram link goes here' target='_blank'><i class='fa fa-instagram'/></a>
