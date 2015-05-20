@@ -38,6 +38,8 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/*.html',
           '<%= yeoman.app %>/about/*.html',
+          '<%= yeoman.app %>/students/*.html',
+          '<%= yeoman.app %>/getting-started/*.html',
           '<%= yeoman.app %>/elements/{,*/}*.html',
           '{.tmp,<%= yeoman.app %>}/elements/{,*/}*.css',
           '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
@@ -250,7 +252,9 @@ module.exports = function (grunt) {
             'bower_components/**',
             'bower_components/font-awesome/fonts/**',
             'CNAME',
-            'about/**'
+            'about/**',
+            'students/**',
+            'getting-started/**'
           ]
         }, {
             //for font-awesome
