@@ -248,7 +248,7 @@ module.exports = function (grunt) {
             '*.html',
             'elements/**',
             '!elements/**/*.scss',
-            'images/{,*/}*.{webp,gif,svg}',
+            'images/{,*/}*.{jpg,png,webp,gif,svg}',
             'bower_components/**',
             'bower_components/font-awesome/fonts/**',
             'CNAME',
@@ -321,7 +321,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
-      return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
+      return grunt.task.run(['build', 'connect:dist:keepalive']);
     }
 
     grunt.task.run([
@@ -330,7 +330,6 @@ module.exports = function (grunt) {
       'copy:styles',
       'autoprefixer:server',
       'connect:livereload',
-      'open',
       'watch'
     ]);
   });
@@ -344,7 +343,6 @@ module.exports = function (grunt) {
     'sass',
     'copy',
     'useminPrepare',
-    'imagemin',
     'concat',
     'autoprefixer',
     'uglify',
