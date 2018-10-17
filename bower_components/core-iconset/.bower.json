@@ -14,7 +14,7 @@
     "tag": "0.5.6",
     "commit": "5c8cbad328080ebbc296b6cebea3816fd6045b7d"
   },
-  "_source": "git://github.com/Polymer/core-iconset.git",
+  "_source": "https://github.com/Polymer/core-iconset.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-iconset"
 }

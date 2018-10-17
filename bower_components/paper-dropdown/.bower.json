@@ -23,7 +23,7 @@
     "tag": "0.5.6",
     "commit": "30db0c00276fd8740bc7488f58703ad9f2449e9d"
   },
-  "_source": "git://github.com/Polymer/paper-dropdown.git",
+  "_source": "https://github.com/Polymer/paper-dropdown.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/paper-dropdown"
 }

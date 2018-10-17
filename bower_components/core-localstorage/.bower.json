@@ -15,7 +15,7 @@
     "tag": "0.5.6",
     "commit": "89b0ebb3264c2d0c3e4e24609d0b22951c592f8b"
   },
-  "_source": "git://github.com/Polymer/core-localstorage.git",
+  "_source": "https://github.com/Polymer/core-localstorage.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-localstorage"
 }

@@ -12,7 +12,7 @@
     "tag": "0.5.0",
     "commit": "b042a37c44045957ced21e5483b8bbed89bb138b"
   },
-  "_source": "git://github.com/Polymer/core-field.git",
+  "_source": "https://github.com/Polymer/core-field.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-field"
 }

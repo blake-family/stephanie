@@ -15,7 +15,7 @@
     "tag": "0.5.6",
     "commit": "84edc644f6f71f31892e3b52d5e6ecf07e523632"
   },
-  "_source": "git://github.com/Polymer/core-selection.git",
+  "_source": "https://github.com/Polymer/core-selection.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-selection"
 }

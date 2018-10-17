@@ -21,7 +21,7 @@
     "tag": "0.5.6",
     "commit": "ccbf9a5d514b4dcb398ce3ae0e4d6bc27a0199f0"
   },
-  "_source": "git://github.com/Polymer/core-doc-viewer.git",
+  "_source": "https://github.com/Polymer/core-doc-viewer.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-doc-viewer"
 }

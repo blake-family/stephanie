@@ -15,7 +15,7 @@
     "tag": "0.5.6",
     "commit": "890be9c9f7d050d4ec3934122bc79fc59600a6f6"
   },
-  "_source": "git://github.com/Polymer/paper-toast.git",
+  "_source": "https://github.com/Polymer/paper-toast.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/paper-toast"
 }

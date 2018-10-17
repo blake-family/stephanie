@@ -13,7 +13,7 @@
     "tag": "0.5.6",
     "commit": "fcf551e4e86d5d28bd8e8bb305724d72a0985951"
   },
-  "_source": "git://github.com/Polymer/core-iconset-svg.git",
+  "_source": "https://github.com/Polymer/core-iconset-svg.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-iconset-svg"
 }

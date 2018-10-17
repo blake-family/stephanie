@@ -19,7 +19,7 @@
     "tag": "0.5.7",
     "commit": "e6a32f9a29a576a83030c74c0fb2a30f3becfdd4"
   },
-  "_source": "git://github.com/Polymer/core-tooltip.git",
+  "_source": "https://github.com/Polymer/core-tooltip.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-tooltip"
 }

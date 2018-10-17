@@ -17,7 +17,7 @@
     "tag": "0.5.6",
     "commit": "f08fb5f4437f0535f2ac7f55b36a160ea24900dd"
   },
-  "_source": "git://github.com/Polymer/core-scroll-header-panel.git",
+  "_source": "https://github.com/Polymer/core-scroll-header-panel.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-scroll-header-panel"
 }

@@ -19,7 +19,7 @@
     "tag": "0.5.6",
     "commit": "ce31889c8531b12716e182aa9d0f6dd5b93e2250"
   },
-  "_source": "git://github.com/Polymer/paper-item.git",
+  "_source": "https://github.com/Polymer/paper-item.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/paper-item"
 }

@@ -13,7 +13,7 @@
     "tag": "0.5.6",
     "commit": "e51befe9e513748b25bc64438978a4e2ca20f7f2"
   },
-  "_source": "git://github.com/Polymer/core-drawer-panel.git",
+  "_source": "https://github.com/Polymer/core-drawer-panel.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-drawer-panel"
 }

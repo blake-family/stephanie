@@ -17,7 +17,7 @@
     "tag": "0.5.6",
     "commit": "25cf7914bc2709deb78671bf2f4a466d82ed153a"
   },
-  "_source": "git://github.com/Polymer/sampler-scaffold.git",
+  "_source": "https://github.com/Polymer/sampler-scaffold.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/sampler-scaffold"
 }

@@ -21,7 +21,7 @@
     "tag": "0.5.6",
     "commit": "c60773fb0e8dbe32f0b0dea0e699f62010e0b9ba"
   },
-  "_source": "git://github.com/Polymer/paper-menu-button.git",
+  "_source": "https://github.com/Polymer/paper-menu-button.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/paper-menu-button"
 }

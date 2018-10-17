@@ -16,7 +16,7 @@
     "tag": "0.5.6",
     "commit": "beb6154b5d8369349d4a3fe609acb0e1ffad3f23"
   },
-  "_source": "git://github.com/Polymer/core-icon-button.git",
+  "_source": "https://github.com/Polymer/core-icon-button.git",
   "_target": "^0.5",
   "_originalSource": "Polymer/core-icon-button"
 }
