@@ -2,23 +2,29 @@
 
 Using this template - http://html5up.net/twenty
 
-TODO -- domain? http://www.stephanieblakemusic.com
 =========
 
 Website project and distribution for TODO
 
 The site is hosted as github pages.  The project uses yeomen, grunt, bower and http://html5up.net/twenty. The site itself might use polymer.
 
-##building
-When you first checkout the project you need to do `npm install` and `bower install`. You may have to run `grunt` to generate the dist folder before deploying.
+## Running
+```
+make
+```
 
-##running
-`grunt serve` or `grunt serve:dist` (to run the distributed version). 
+## Running the distribution version
+```
+make deploy-dist
+```
 
-##deploying
+## Publishing
 The site is contained on the gh-pages branch and found in the dist directory. Deployment is handled by a handy script I found (and checked in at the root) - https://github.com/X1011/git-directory-deploy
 
 `./deploy` will push the dist folder up the github as the new site (use `./deploy -s` the first time???).
+
+## Other
+See the `Makefile`
 
 ##Custom Domain TODO - below is copied from stephanieblakemusic.com site.
 
