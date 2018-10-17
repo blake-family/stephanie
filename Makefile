@@ -78,7 +78,5 @@ publish:
 	@echo
 	@echo "$(blue)publish: $(yellow)Publishing $(appName) to GitHub Pages$(default)"
 	@echo
-	@echo "Make sure you've run $(cyan)grunt dist$(default) first"
-	@echo
 	docker-compose run --rm web grunt build
 	./deploy.sh
