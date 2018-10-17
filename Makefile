@@ -32,6 +32,12 @@ deploy:
 	@echo
 	@echo "Running at $(blue)http://localhost"
 
+deploy-with-logs:
+	@echo
+	@echo "$(blue)deploy-with-logs: $(yellow)Deploy $(appName)$(default)"
+	@echo
+	docker-compose up
+
 deploy-dist:
 	@echo
 	@echo "$(blue)deploy-dist: $(yellow)Deploy $(cyan)dist$(yellow) version of $(appName)$(default)"
@@ -60,7 +66,7 @@ quick-shell:
 	@echo "$(green)grunt serve$(default)"
 	@echo "Then request $(blue)http://localhost/$(default)"
 	@echo
-	@docker-compose run --service-ports --rm web bash
+	docker-compose run --service-ports --rm web bash
 
 logs:
 	@echo
@@ -74,5 +80,5 @@ publish:
 	@echo
 	@echo "Make sure you've run $(cyan)grunt dist$(default) first"
 	@echo
-	docker-compose run --rm web grunt dist
+	docker-compose run --rm web grunt build
 	./deploy.sh
