@@ -1053,6 +1053,12 @@ create-error-class@^3.0.1:
   dependencies:
     capture-stack-trace "^1.0.0"
 
+cross-spawn@^0.2.3:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-0.2.9.tgz#bd67f96c07efb6303b7fe94c1e979f88478e0a39"
+  dependencies:
+    lru-cache "^2.5.0"
+
 cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -1162,9 +1168,11 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-dargs@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/dargs/-/dargs-2.1.0.tgz#46c27ffab1ffb1378ef212597213719fe602bc93"
+dargs@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/dargs/-/dargs-4.1.0.tgz#03a9dbb4b5c2f139bf14ae53f0b8a2a6a86f4e17"
+  dependencies:
+    number-is-nan "^1.0.0"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -2339,15 +2347,15 @@ grunt-contrib-jshint@^0.10.0:
     hooker "~0.2.3"
     jshint "~2.5.0"
 
-grunt-contrib-sass@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/grunt-contrib-sass/-/grunt-contrib-sass-0.8.1.tgz#8de924480dc12a51d35abe96a721682afc88d800"
+grunt-contrib-sass@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/grunt-contrib-sass/-/grunt-contrib-sass-1.0.0.tgz#806838251cbc0e1a94d64d515cdd34cf674d701b"
   dependencies:
     async "^0.9.0"
-    chalk "^0.5.1"
-    dargs "^2.0.0"
+    chalk "^1.0.0"
+    cross-spawn "^0.2.3"
+    dargs "^4.0.0"
     which "^1.0.5"
-    win-spawn "^2.0.0"
 
 grunt-contrib-uglify@^0.6.0:
   version "0.6.0"
@@ -3479,7 +3487,7 @@ lpad-align@^1.0.1:
     longest "^1.0.0"
     meow "^3.3.0"
 
-lru-cache@2:
+lru-cache@2, lru-cache@^2.5.0:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
 
@@ -5897,10 +5905,6 @@ which@^1.0.5, which@^1.0.8, which@^1.2.9:
 which@~1.0.5:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/which/-/which-1.0.9.tgz#460c1da0f810103d0321a9b633af9e575e64486f"
-
-win-spawn@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/win-spawn/-/win-spawn-2.0.0.tgz#397a29130ec98d0aa0bc86baa4621393effd0b07"
 
 window-size@0.1.0:
   version "0.1.0"
