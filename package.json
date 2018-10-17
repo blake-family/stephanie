@@ -1,5 +1,5 @@
 {
-  "name": "picture-cars",
+  "name": "stephanie-blake-music",
   "version": "0.0.0",
   "devDependencies": {
     "connect-livereload": "^0.5.2",
@@ -12,7 +12,7 @@
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-imagemin": "^3.0.0",
     "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^0.6.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-minify-html": "^1.1.1",
